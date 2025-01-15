@@ -97,10 +97,10 @@ window.addEventListener('load', () => {
 });
 function notePadWriter(){
     const audio = document.getElementById('bdaudio');
-    if (!audio.paused) {
-        audio.pause(); // Stop the audio
-        audio.currentTime = 0; // Reset audio to the start (optional)
-    }
+    // if (!audio.paused) {
+    //     audio.pause(); // Stop the audio
+    //     audio.currentTime = 0; // Reset audio to the start (optional)
+    // }
     
     document.getElementById('outer').style.display='none';
     document.getElementById('paperContent').style.display='flex';
