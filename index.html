@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <img src="stars.png" alt="hungingStars" id="hungingStars"> -->
+    <div id="outer">
+        <div id="partyPopper"></div>
+        <div id="balloonContainer"></div>
+        <div>
+            <h1 id="countAlert">Count down starts...</h1>
+            <h1 id="countoun" aria-live="polite"></h1>
+            <h1 id="wishMsg">Happy Birthday Dharshini💞</h1>
+            <img width="60" height="60" src="https://img.icons8.com/dusk/64/books.png" id="notesImg" alt="books"/>
+        </div>
+    </div>
+    <div id="paperContent" style="display: none;">
+        <div id="paper">
+          <img src="booklet.png" id="notePad" alt="notePad" style="margin: 0px; filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));">
+          <div class="typing-container">
+            <div class="typing-line">🥳Happy birthday, my dearest Dharshini! 💞</div>
+            <div class="typing-line">You light up✨ my world 🌍with your love,💖</div>
+            <div class="typing-line">laughter,😊 and endless kindness.🥰</div>
+            <div class="typing-line">Every moment🕧 with you feels like a blessing,😇</div>
+            <div class="typing-line">and I’m so grateful 🧚to call you my wife👸.</div>
+            <div class="typing-line">💖You’re my best friend🫂,</div>
+            <div class="typing-line"> my partner🫶,and my greatest 🎊joy.</div>
+            <div class="typing-line">On your special day🎀, I wish you all🎇</div>
+            <div class="typing-line">the happiness🤩, love,💞 and dreams come true</div>
+            <div class="typing-line">because you deserve nothing less💥.</div>
+            <div class="typing-line">Let’s create more beautiful memories🥂together</div>
+            <div class="typing-line">and celebrate the wonderful person you are💝.</div>
+            <div class="typing-line">I love you 💞more than words can express🤍.</div>
+          </div>
+        </div>
+        <div class="image-container" style="flex-direction: row;">
+            <img 
+              id="toggleImage" 
+              src="giftboxpic.png" 
+              alt="Static Image" 
+              data-static="giftboxpic.png" 
+              data-gif="giftboxanimation.gif" 
+            />
+          </div>
+          
+    </div>
+      
+    <audio src="birthdayMusic.mp3" loop autoplay id="bdaudio"></audio>
+    <script src="index.js"></script>
+</body>
+</html>
